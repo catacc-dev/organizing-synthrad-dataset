@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import argparse
 
 # Task 1 - Pelvis P - Center A - PatientID 001
-def load_nifti_images(patient_folder: str, modality: str='ct'):
+def load_display_nifti_images(patient_folder: str, modality: str='ct'):
     """
     Load and display slices of a NIfTI image.
 
@@ -34,10 +34,10 @@ def main():
     args = parser.parse_args()
 
     # Load and display the NIfTI images
-    load_nifti_images(args.input_path, args.modality) 
+    load_display_nifti_images(args.input_path, args.modality) 
 
 if __name__ == "__main__":
     main()
 
 # to run it:
-#python load_nifti.py --input_path /folder/of/each/patient --modality ct
+#python load_and_display_nifti.py --input_path /folder/of/each/patient --modality ct

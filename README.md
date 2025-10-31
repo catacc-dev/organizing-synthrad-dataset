@@ -1,4 +1,4 @@
-# Organizing-SynthRAD-dataset
+# organizing-synthrad-dataset
 This project aims to generate a JSON dataset file and visualize the 2D slices of MRI and CT images. 
 
 The dataset used can be found here: https://zenodo.org/records/7260705.
@@ -11,7 +11,7 @@ The dataset used can be found here: https://zenodo.org/records/7260705.
 ## Installation
 1. Clone the repository:
 ```bash
- git clone https://github.com/catacc-dev/Organizing-SynthRAD-dataset.git
+ git clone https://github.com/catacc-dev/organizing-synthrad-dataset.git
 ```
 
 2. Install dependencies:
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 To run the project, use the following command:
 ```bash
 python generate_json.py --input_path /folder/of/pelvis
-python load_nifti.py --input_path /folder/of/each/patient --modality ct
+python load_and_visualise_nifti.py --input_path /folder/of/each/patient --modality ct
 ```
 
 ## Contributing

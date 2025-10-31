@@ -23,7 +23,7 @@ pip install -r requirements.txt
 To run the project, use the following command:
 ```bash
 python generate_json.py --input_path /folder/of/pelvis
-python load_and_visualise_nifti.py --input_path /folder/of/each/patient --modality ct
+python load_and_display_nifti.py --input_path /folder/of/each/patient --modality ct
 ```
 
 ## Contributing

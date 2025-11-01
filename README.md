@@ -1,4 +1,4 @@
-# Organizing synthrad dataset
+# Organizing SynthRAD2023 dataset
 This project aims to generate a JSON dataset file and visualize the 2D slices of MRI and CT images. 
 
 The dataset used can be found here: https://zenodo.org/records/7260705.

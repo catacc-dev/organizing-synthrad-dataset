@@ -6,7 +6,6 @@ Generation of a JSON file and visualisation of slices.
 <summary>Table of Contents</summary>
 
 1. [About the Project](#about-the-project)
-    - [Notebooks](#notebooks)
 2. [Getting Started](#getting-started)
    - [Installation](#installation)
 3. [Contributing](#contributing)
@@ -21,20 +20,20 @@ This project aims to generate a JSON dataset file and visualise the 2D slices of
 ### Installation
 1. Clone the repository:
 ```bash
- git clone https://github.com/catacc-dev/organizing-synthrad-dataset.git
+git clone https://github.com/catacc-dev/organizing-synthrad-dataset.git
 cd organizing-synthrad-dataset
 ```
 
 2. Create a virtual environment
 ```bash
-   python3 -m venv venv
-   source venv/bin/activate      # Linux or macOS
-   venv\Scripts\activate         # Windows
+python3 -m venv venv
+source venv/bin/activate      # Linux or macOS
+venv\Scripts\activate         # Windows
 ```
 
 3. Install packages
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
